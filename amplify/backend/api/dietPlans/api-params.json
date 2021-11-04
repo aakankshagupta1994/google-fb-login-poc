@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/diets",
+      "lambdaFunction": "googlefbloginpoced4f933e",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/diets"
+    }
+  ],
+  "resourceName": "dietPlans",
+  "apiName": "dietPlans",
+  "functionArns": [
+    {
+      "lambdaFunction": "googlefbloginpoced4f933e"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-googlefbloginpoc-dev-131150-authRole",
+    "unAuthRoleName": "amplify-googlefbloginpoc-dev-131150-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "googlefbloginpoced4f933e",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

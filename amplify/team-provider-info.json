@@ -1,0 +1,32 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-googlefbloginpoc-dev-131150-authRole",
+            "UnauthRoleArn": "arn:aws:iam::486806635132:role/amplify-googlefbloginpoc-dev-131150-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::486806635132:role/amplify-googlefbloginpoc-dev-131150-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-googlefbloginpoc-dev-131150-deployment",
+            "UnauthRoleName": "amplify-googlefbloginpoc-dev-131150-unauthRole",
+            "StackName": "amplify-googlefbloginpoc-dev-131150",
+            "StackId": "arn:aws:cloudformation:us-west-2:486806635132:stack/amplify-googlefbloginpoc-dev-131150/1fbfdf80-3c19-11ec-bed8-068c163a19e3",
+            "AmplifyAppId": "d2huys0vopau8b"
+        },
+        "categories": {
+            "auth": {
+                "googlefbloginpocb3500583": {}
+            },
+            "function": {
+                "googlefbloginpoced4f933e": {
+                    "deploymentBucketName": "amplify-googlefbloginpoc-dev-131150-deployment",
+                    "s3Key": "amplify-builds/googlefbloginpoced4f933e-3872524a424372597331-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2huys0vopau8b",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
